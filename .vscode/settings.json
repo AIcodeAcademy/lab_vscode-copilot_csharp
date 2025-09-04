@@ -1,0 +1,95 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "boot-java.rewrite.reconcile": true,
+  "chat.agent.maxRequests": 100,
+  "chat.mcp.autostart": "newAndOutdated",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,es",
+  "files.associations": {},
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "dist/": true
+  },
+  "git.enableSmartCommit": true,
+  "github.copilot.advanced": {
+    "inlineSuggest": true,
+    "inlineSuggest.enable": true,
+    "inlineSuggest.showSuggestionsAlways": true
+  },
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Group changes into logical commits.Create commits with clear messages that describe the changes made to the codebase following conventional commit guidelines. Keep commits linked to features, tasks, or issues when applicable."
+    }
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "inlineSuggest": true,
+    "inlineSuggest.enable": true,
+    "inlineSuggest.showSuggestionsAlways": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "material-icon-theme.files.associations": {
+    "*.briefing.md": "apiblueprint",
+    "*.chatmode.md": "robot",
+    "*.design.md": "todo",
+    "*.instructions.md": "robot",
+    "*.prompt.md": "robot",
+    "*.spec.md": "todo",
+    "*.plan.md": "todo",
+    "*.template.md": "template",
+    "*.tasks.md": "todo",
+    "*.test.md": "verified",
+    "BACKLOG.md": "todo",
+    "DOMAIN.md": "architecture",
+    "JOURNAL.md": "changelog",
+    "MANUAL.md": "lib",
+    "PRD.md": "architecture",
+    "STRUCTURE.md": "tree",
+    "SYSTEMS.md": "architecture"
+  },
+  "material-icon-theme.folders.associations": {
+    ".ai": "robot",
+    "chatmodes": "robot",
+    "instructions": "robot",
+    "prompts": "robot"
+  },
+  "search.exclude": {
+    "**/env": true,
+    "node_modules/": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.suggest.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "window.newWindowProfile": "Default",
+  "window.zoomLevel": 1,
+  "window.zoomPerWindow": true,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  "workbench.editor.revealIfOpen": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "workbench.colorCustomizations": {
+    "titleBar.border": "#00aaff",
+    "statusBar.border": "#007700",
+  },
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic"
+}
